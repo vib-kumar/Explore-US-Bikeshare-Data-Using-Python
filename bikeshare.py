@@ -194,11 +194,35 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*100)
 
+    #function to display raw data
+def display_data(df, start_idx = 0, end_idx = 5):
+    """Displays 5 lines of raw data."""
+    #set index to select first 5 rows
+    while True:
+        print("\n")
+        print(df.iloc[start_idx:end_idx].to_string())
+        print("\n")
+
+        start_idx = end_idx + 1
+        end_idx = end_idx + 5
+
+        raw_data = str(input("\nDo you want to keep printing raw data? Type 'YES' to continue. Press any other key to proceed to statistics: ")).lower()
+        if raw_data == 'yes':
+            display_data(df, start_idx, end_idx)
+        else:
+            break
+        break
 
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
+
+        raw_data = str(input("\nDo you want to print raw data? Type 'YES' to continue. Press any other key to proceed to statistics: ")).lower()
+        if raw_data == 'yes':
+            display_data(df)
+        else:
+            pass
 
         time_stats(df)
         station_stats(df)
