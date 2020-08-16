@@ -1,5 +1,7 @@
-# programming_data_science_udacity
-Nanodegree course on Programming for Data Science with Python from Udacity.
+# Explore US Bikeshare Data Using Python
+Project submission as part of the Programming for Data Science with Python Nanodegree from Udacity. 
+
+In this project, I make use of Python (NumPy and Pandas) to explore data related to bike share systems for three major cities in the United States Chicago, New York City, and Washington. I have written code to import the data and answer interesting questions about it by computing descriptive statistics. It also includes a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Date created
 7/30/2020
