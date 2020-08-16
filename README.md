@@ -13,6 +13,8 @@ Explore US Bikeshare Data Using Python
 The attached Python file is the final code used to analyze bikeshare data from three cities: Chicago, NYC, and Washington. The program takes a user-driven input approach and shows different statistics based on the input choices.
 
 ### About the source data
+Data has been provided by Motivate, a bike share system provider for many major cities in the United States.
+
 The dataset consists of randomly selected data for the first six months of 2017 for all the three cities. All three of the data files contain the same core six (6) columns:
 
 [1] Start Time (e.g., 2017-01-01 00:07:57), [2] End Time (e.g., 2017-01-01 00:20:53), [3] Trip Duration (in seconds - e.g., 776), [4] Start Station (e.g., Broadway & Barry Ave), [5] End Station (e.g., Sedgwick St & North Ave), [6] User Type (Subscriber or Customer)
