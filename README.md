@@ -16,7 +16,7 @@ The attached Python file is the final code used to analyze bikeshare data from t
 The dataset consists of randomly selected data for the first six months of 2017 for all the three cities. All three of the data files contain the same core six (6) columns:
 
 Start Time (e.g., 2017-01-01 00:07:57)
-End Time (e.g., 2017-01-01 00:20:53)
+End Time (e.g., 2017-01-01 00:20:53
 Trip Duration (in seconds - e.g., 776)
 Start Station (e.g., Broadway & Barry Ave)
 End Station (e.g., Sedgwick St & North Ave)
@@ -33,7 +33,7 @@ most common hour of day
 
 #2 Popular stations and trip
 
-most common start station
+most common start statio
 most common end station
 most common trip from start to end (i.e., most frequent combination of start station and end station)
 
